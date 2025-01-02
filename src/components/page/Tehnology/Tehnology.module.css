@@ -1,0 +1,104 @@
+
+
+.tehPageSection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height:  71.9vh;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.tehPageTitle {
+    font-size: 25px;
+    color: white;
+
+}
+
+.tehPageContent {
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr;
+    gap: 20px;
+    /* border: 1px solid white; */
+}
+
+.btnTabs.active {
+    padding: 10px;
+     color: white;
+     font-size: 25px;
+     font-weight: bold;
+     background: radial-gradient(50% 50% at 50% 0, rgba(var(--action-background-color,255,255,255),.8) 0, transparent 100%), hsla(0, 0%, 100%, .2);
+}
+
+
+.tehPageContentBtns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid white; */
+}
+
+.tehPageContentTextInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    
+    /* border: 1px solid white; */
+}
+
+.textInfoTitle {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 20px;
+    backdrop-filter: blur(60px);
+}
+
+.textInfoNameInfo {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.textInfoInfo {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 20px;
+    backdrop-filter: blur(60px);
+}
+
+.tehImg {
+    border-radius: 20px;
+    width: 100%;
+    height: 300px;
+}
+
+
+
+@media only screen and (max-width: 425px) {
+    .tehPageSection  {
+        height: 100%;
+    }
+    .tehPageContent {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tehPageContentBtns {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        /* border: 1px solid white; */
+    }
+    
+    
+}

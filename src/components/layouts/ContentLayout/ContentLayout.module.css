@@ -1,0 +1,33 @@
+
+
+.contentLayout {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 768px) {
+    .contentLayout  {
+        display: flex;
+        flex-direction: column;
+        /* height: 100vh; */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+    .contentLayout  {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
